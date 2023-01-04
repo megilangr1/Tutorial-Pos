@@ -57,6 +57,9 @@
     <section class="content pt-3">
       <div class="row px-1">
         @yield('content')
+        <div class="col-12">
+          {{ $slot }}
+        </div>
       </div>
     </section>
   </div>

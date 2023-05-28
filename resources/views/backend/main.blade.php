@@ -32,6 +32,13 @@
         </button>
       </div> --}}
     </div>
+    <div class="card-body">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Nostrum neque saepe hic quod omnis laudantium assumenda, 
+      eveniet ratione est, maiores corporis accusantium deleniti placeat 
+      praesentium rerum consequuntur similique blanditiis pariatur. 
+      Facilis numquam eaque voluptate quas! Molestiae rerum incidunt ab officiis.
+    </div>
   </div>
 </div>
 <div class="modal fade" id="modal-lg">

@@ -20,8 +20,6 @@ Route::get('/', [MainController::class, 'index'])->name('dashboard');
 Route::middleware(['auth'])->group(function () {
     Route::prefix('backend')->name('backend.')->group(function () {
         Route::get('/', [MainController::class, 'main'])->name('main');
-
-        Route::get('/kategori', MainIndex::class)->name('kategori');
     });
 });
 

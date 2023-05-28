@@ -58,7 +58,7 @@
       <div class="row px-1">
         @yield('content')
         <div class="col-12">
-          {{ $slot }}
+          {{ $slot ?? '-' }}
         </div>
       </div>
     </section>

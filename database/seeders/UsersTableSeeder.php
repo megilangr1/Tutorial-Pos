@@ -21,7 +21,7 @@ class UsersTableSeeder extends Seeder
                 'name' => 'Super Admin',
                 'email' => 'admin@mail.com',
                 'email_verified_at' => Carbon::now(),
-                'password' => Hash::make('nanozero1'),
+                'password' => Hash::make('admin123'),
             ],
         ];
         
